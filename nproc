@@ -1,2 +1,2 @@
 #!/bin/sh
-grep 'processor' /proc/cpuinfo | wc -l
+grep -c 'processor' /proc/cpuinfo
